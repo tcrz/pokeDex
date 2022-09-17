@@ -10,7 +10,7 @@ export default function Pokemoncard(props){
       <article  className="pokemon">
         <img src={props.image} alt="pokemon-thumbnail"/>
         <div  className="details">
-          <div  className="video-name">
+          <div  className="pokemon-name">
             <h3>{props.name}</h3>
           </div>
         </div>
