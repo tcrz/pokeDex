@@ -1,0 +1,23 @@
+.loader {
+    margin-top: 7em;
+}
+
+.App-logo {
+    height: 20vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 1.2s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
