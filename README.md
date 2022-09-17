@@ -1,5 +1,6 @@
 # PokeDex
 The Pokédex contains detailed stats for every creature from the Pokemon games.
+Live demo: https://tcrz.github.io/pokeDex
 ### Features:
 - List All Pokémon (with pagination)
 - Show Details of a Pokémon (including name, types, weight, stats and moves)
