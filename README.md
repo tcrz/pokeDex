@@ -72,10 +72,12 @@ Now, when the fetch returns a response, we can check which pokemon names contain
 Display detailed information about pokemon when pokemon card is clicked.
 
 ### Process
-I passed the name of the pokemon to the PokemonDetails component. With useEffect, I fetch the pokemon data (using the name of the pokemon with the base url. eg:`https://pokeapi.co/api/v2/pokemon/Onix`), destructure the payload, extracting the pokemon's needed info:
-• Stats
-• Types
-• Weight
-• Moves 
+I passed the name of the pokemon to the PokemonDetails component. With useEffect, I fetch the pokemon data (using the name of the pokemon with the base url. eg:`https://pokeapi.co/api/v2/pokemon/Onix`), destructure the payload, extracting the pokemon's needed info:  
+- Species  
+- Stats  
+- Types  
+- Weight  
+- Moves  
+
 Then I set it in state right when component mounts then render the data on screen.
 I decided to display the info using a popup style approach. With the help of react-router, I was able to display the component without any refresh.
